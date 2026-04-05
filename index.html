@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "w6uzso3f1x");
+</script>
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Всё о котах | TypeScript проект</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>🐈 Всё о котах 🐾</h1>
+    <div class="tagline">Мурчащие создания, покорившие интернет</div>
+</header>
+
+<div class="container">
+    <div class="cats-grid" id="catsGrid"></div>
+
+    <div class="random-cat">
+        <button class="btn" id="randomCatBtn">🎲 Показать случайного кота</button>
+        <div id="randomMessage" style="margin-top: 1rem; font-weight: bold; color:#b45f2b;"></div>
+    </div>
+
+    <div class="facts-section">
+        <h2>😻 5 фактов о кошках</h2>
+        <ul class="facts-list">
+            <li>Кошки спят 12–16 часов в сутки — это 70% их жизни!</li>
+            <li>Домашние кошки произошли от дикого кота, который жил в пустынях Ближнего Востока.</li>
+            <li>У кошек около 100 разных звуков, а у собак — всего 10.</li>
+            <li>Кошка может прыгнуть на высоту в 5 раз больше своего роста.</li>
+            <li>Усы помогают кошке определять, пролезет ли она в отверстие.</li>
+        </ul>
+    </div>
+
+    <div class="emoji-gallery">
+        <p><strong>Нажми на котика — получишь совет 🧡</strong></p>
+        <span>🐱</span> <span>🐈</span> <span>🐈⬛</span> <span>😺</span> <span>😸</span> <span>😻</span>
+        <p id="emojiAdvice" style="margin-top: 10px; font-style: italic; min-height: 3rem;"></p>
+    </div>
+</div>
+
+<footer>
+    <p>🐾 Сделано с любовью к пушистым друзьям | TypeScript + 🐱 | 2025 🐾</p>
+</footer>
+
+<script src="../dist/script.js"></script>
+</body>
+</html>
